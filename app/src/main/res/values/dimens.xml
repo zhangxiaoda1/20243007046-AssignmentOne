@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Banner -->
+    <dimen name="banner_text_margin">8dp</dimen>
+
+    <!-- Grid buttons -->
+    <dimen name="button_icon_padding">28dp</dimen>
+    <dimen name="button_label_text_size">16sp</dimen>
+    <dimen name="button_label_padding_bottom">12dp</dimen>
+</resources>

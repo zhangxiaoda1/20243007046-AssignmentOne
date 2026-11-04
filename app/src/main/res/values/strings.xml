@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">AssignmentOne</string>
     <string name="hello_world">Hello World!</string>
+
+    <!-- Main banner -->
+    <string name="banner_welcome">Welcome to\nCampusLife – Your\nPocket Guide to\nUniversity of Waikato</string>
+    <string name="banner_content_description">Welcome banner of CampusLife</string>
+
+    <!-- Button labels -->
+    <string name="label_facilities">Facilities</string>
+    <string name="label_events">Events</string>
+    <string name="label_clubs">Clubs</string>
+    <string name="label_support">Support</string>
 </resources>
