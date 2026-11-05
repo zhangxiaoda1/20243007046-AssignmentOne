@@ -8,8 +8,10 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
 
-    <!-- Temporary button background for Part B; replaced by the selector in Part C -->
-    <color name="button_placeholder">#455A64</color>
+    <!-- CampusLife brand colours -->
+    <color name="green">#1B5E20</color>
+    <color name="light_green">#66BB6A</color>
+
     <!-- Semi-transparent black for banner text shadow -->
     <color name="banner_text_shadow">#80000000</color>
 </resources>

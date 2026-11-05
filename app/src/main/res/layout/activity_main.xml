@@ -59,7 +59,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:background="@color/button_placeholder"
+            android:background="@color/green"
             android:orientation="vertical">
 
             <ImageButton
@@ -67,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="@null"
+                android:background="@drawable/button_selector"
                 android:contentDescription="@string/label_facilities"
                 android:padding="@dimen/button_icon_padding"
                 android:scaleType="fitCenter"
@@ -89,7 +89,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:background="@color/button_placeholder"
+            android:background="@color/green"
             android:orientation="vertical">
 
             <ImageButton
@@ -97,7 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="@null"
+                android:background="@drawable/button_selector"
                 android:contentDescription="@string/label_events"
                 android:padding="@dimen/button_icon_padding"
                 android:scaleType="fitCenter"
@@ -119,7 +119,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:background="@color/button_placeholder"
+            android:background="@color/green"
             android:orientation="vertical">
 
             <ImageButton
@@ -127,7 +127,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="@null"
+                android:background="@drawable/button_selector"
                 android:contentDescription="@string/label_clubs"
                 android:padding="@dimen/button_icon_padding"
                 android:scaleType="fitCenter"
@@ -149,7 +149,7 @@
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:background="@color/button_placeholder"
+            android:background="@color/green"
             android:orientation="vertical">
 
             <ImageButton
@@ -157,7 +157,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="@null"
+                android:background="@drawable/button_selector"
                 android:contentDescription="@string/label_support"
                 android:padding="@dimen/button_icon_padding"
                 android:scaleType="fitCenter"
