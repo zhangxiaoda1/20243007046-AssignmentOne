@@ -4,6 +4,7 @@
 
     <!-- Main banner -->
     <string name="banner_welcome">Welcome to\nCampusLife – Your\nPocket Guide to\nUniversity of Waikato</string>
+    <string name="banner_welcome_land">Welcome to CampusLife\nYour Pocket Guide to\nUniversity of Waikato</string>
     <string name="banner_content_description">Welcome banner of CampusLife</string>
 
     <!-- Button labels -->
