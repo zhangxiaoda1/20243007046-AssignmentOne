@@ -12,4 +12,10 @@
     <string name="label_events">Events</string>
     <string name="label_clubs">Clubs</string>
     <string name="label_support">Support</string>
+
+    <!-- Click feedback messages -->
+    <string name="toast_facilities">Facilities clicked</string>
+    <string name="toast_events">Events clicked</string>
+    <string name="toast_clubs">Clubs clicked</string>
+    <string name="toast_support">Support clicked</string>
 </resources>
