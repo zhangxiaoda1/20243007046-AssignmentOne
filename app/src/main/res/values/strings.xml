@@ -18,4 +18,8 @@
     <string name="toast_events">Events clicked</string>
     <string name="toast_clubs">Clubs clicked</string>
     <string name="toast_support">Support clicked</string>
+
+    <!-- Detail activity placeholders (replaced dynamically in Part H) -->
+    <string name="detail_placeholder_title">This is title</string>
+    <string name="detail_placeholder_content">This is content</string>
 </resources>

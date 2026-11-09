@@ -14,4 +14,7 @@
 
     <!-- Semi-transparent black for banner text shadow -->
     <color name="banner_text_shadow">#80000000</color>
+
+    <!-- Detail text -->
+    <color name="text_gray">#666666</color>
 </resources>

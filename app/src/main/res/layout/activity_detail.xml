@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- Header: icon and topic title on a dark bar -->
+    <LinearLayout
+        android:id="@+id/detail_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_header_height"
+        android:background="@color/black"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/detail_header_padding"
+        android:paddingEnd="@dimen/detail_header_padding">
+
+        <ImageView
+            android:id="@+id/detail_header_icon"
+            android:layout_width="@dimen/detail_header_icon_size"
+            android:layout_height="@dimen/detail_header_icon_size"
+            android:contentDescription="@string/label_facilities"
+            android:src="@drawable/img_btn_facilities" />
+
+        <TextView
+            android:id="@+id/detail_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/detail_header_padding"
+            android:text="@string/label_facilities"
+            android:textColor="@color/white"
+            android:textSize="@dimen/detail_header_title_size" />
+    </LinearLayout>
+
+    <!-- Scrollable body; populated from arrays.xml in Part H -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/detail_content_padding">
+
+            <TextView
+                android:id="@+id/detail_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/detail_text_spacing"
+                android:text="@string/detail_placeholder_title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/detail_title_text_size" />
+
+            <TextView
+                android:id="@+id/detail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_placeholder_content"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/detail_content_text_size" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
