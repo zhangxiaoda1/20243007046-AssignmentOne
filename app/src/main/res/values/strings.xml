@@ -13,6 +13,14 @@
     <string name="label_clubs">Clubs</string>
     <string name="label_support">Support</string>
 
+    <!-- Short header labels, indexed in the same order as the topic arrays -->
+    <string-array name="string_array_labels">
+        <item>@string/label_facilities</item>
+        <item>@string/label_events</item>
+        <item>@string/label_clubs</item>
+        <item>@string/label_support</item>
+    </string-array>
+
     <!-- Click feedback messages -->
     <string name="toast_facilities">Facilities clicked</string>
     <string name="toast_events">Events clicked</string>
